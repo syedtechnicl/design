@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-style: italic;
+  padding: 10px;
+}
+
+h1 span {
+  color: red;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 1px 8px;
+  font-size: 20px;
+  margin: 5px;
+  text-transform: capitalize;
+  transition: color 0.5s ease;
+}
+
+ul li:hover {
+  color: red;
+}
+
+.container {
+  width: 200px;
+  height: 400px;
+}
+
+.maindiv {
+  background-color: white;
+}
+
+img {
+  max-width: 100%; /* Ensures the image doesn’t exceed its container’s width */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Removes any extra space below the image */
+}
+
+/* css ended want to learn chakra and boostrap */
